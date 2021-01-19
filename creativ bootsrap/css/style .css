@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  padding: 0 4rem;
+  width: 100%;
+}
+
+.header {
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 32;
+}
+
+.header .header-all {
+  overflow: hidden;
+}
+
+.header .header-all .left {
+  width: 20%;
+  float: left;
+}
+
+.header .header-all .left a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header .header-all .right {
+  width: 80%;
+  float: right;
+  text-align: right;
+  padding-top: 7px;
+}
+
+.header .header-all .right a {
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.first {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 13rem 0;
+  position: relative;
+  z-index: 21;
+}
+
+.first .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #615656;
+  opacity: 0.7;
+  z-index: -20;
+}
+
+.first .first-text {
+  text-align: center;
+}
+
+.first .first-text h1 {
+  color: white;
+  font-size: 56px;
+  text-transform: uppercase;
+}
+
+.first .first-text hr {
+  background-color: #f4623a;
+  height: 3px;
+  width: 50px;
+  border: none;
+  margin: 20px auto;
+}
+
+.first .first-text p {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.first .first-text a {
+  background-color: #f4623a;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+  padding: 20px 32px;
+  text-decoration: none;
+}
+
+.first .first-text a:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  background-color: #f43a3a;
+}
+
+.second {
+  background-color: #f4623a;
+  padding: 5rem 0;
+}
+
+.second .second-text {
+  text-align: center;
+}
+
+.second .second-text h2 {
+  font-size: 32px;
+  color: white;
+}
+
+.second .second-text hr {
+  background-color: white;
+  height: 3px;
+  width: 50px;
+  border: none;
+  margin: 20px auto;
+}
+
+.second .second-text p {
+  font-size: 19px;
+  color: white;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.second .second-text a {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  font-weight: bold;
+  padding: 20px 32px;
+  text-decoration: none;
+}
+
+.second .second-text a:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  background-color: #dbdbdb;
+}
+
+.third {
+  padding: 7rem 0;
+  text-align: center;
+}
+
+.third h2 {
+  font-size: 32px;
+  color: black;
+}
+
+.third hr {
+  background-color: #f4623a;
+  height: 3px;
+  width: 50px;
+  border: none;
+  margin: 20px auto;
+}
+
+.third .all {
+  margin-top: 70px;
+}
+
+.third .all .box {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.third .all .box i {
+  font-size: 60px;
+  color: #f4623a;
+}
+
+.third .all .box h3 {
+  font-size: 25px;
+  color: #212529;
+  margin: 10px 0;
+}
+
+.third .all .box p {
+  font-size: 18px;
+  color: #6c757d;
+}
+
+.clear {
+  clear: both;
+}
+
+.photos {
+  padding: 8rem 0;
+}
+
+.photos .photo-box .box {
+  width: 33.3%;
+  float: left;
+  position: relative;
+}
+
+.photos .photo-box .box img {
+  width: 100%;
+}
+
+.photos .photo-box .box:hover .box-text {
+  opacity: 1;
+}
+
+.photos .photo-box .box:hover .overlay {
+  opacity: 0.8;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.photos .photo-box .box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #f4623a;
+}
+
+.photos .photo-box .box .box-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+}
+
+.photos .photo-box .box .box-text h5, .photos .photo-box .box .box-text h4 {
+  color: white;
+}
+
+.clear {
+  clear: both;
+}
+
+.local {
+  padding: 6rem;
+  text-align: center;
+  background-color: #474646;
+  margin-bottom: 40px;
+}
+
+.local .local-text {
+  padding-top: 50px;
+}
+
+.local .local-text h2 {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.local .local-text a {
+  background-color: #fff;
+  color: black;
+  border-radius: 50px;
+  font-weight: bold;
+  padding: 20px 32px;
+  text-decoration: none;
+}
+
+.fourth {
+  padding: 10rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.fourth h2 {
+  color: black;
+  font-size: 32px;
+}
+
+.fourth hr {
+  background-color: #f4623a;
+  height: 3px;
+  width: 50px;
+  border: none;
+  margin: 20px auto;
+}
+
+.fourth p {
+  color: #6C757D;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.fourth .all .box {
+  width: 50%;
+  float: left;
+}
+
+.fourth .all .box i {
+  color: #6C757D;
+  padding: 40px 45px;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.eighth {
+  padding: 4rem;
+  text-align: center;
+  background-color: #F8F9FA;
+  color: black;
+  font-size: 18px;
+}
+
+.eighth p {
+  font-size: 17px;
+  color: #6C757D;
+}
+/*# sourceMappingURL=style .css.map */
